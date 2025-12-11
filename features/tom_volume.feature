@@ -18,4 +18,4 @@ Feature: System Control via Voice (Tom Mode)
     Given the assistant is in "Tom" mode
     When I say the command "Гучність 200"
     Then the system volume should remain unchanged
-    And the assistant should say "Рівень гучності має бути від 0 до 100"
+    And the assistant should say "Рівень має бути від 0 до 100"
